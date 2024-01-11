@@ -6,28 +6,26 @@
   <title>Analizador de texto</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<script src="index.js" type="module"></script>
 
 <body>
   <section class="container">
-  <h1> Analizador de texto</h1>
-  <ul>
-    <li class="metric" data-testid="word-count">Palavras</li>
-    <li class="metric" data-testid="character-count">Caracteres</li>
-    <li class="metric" data-testid="character-no-spaces-count">Espaços excluidos</li>
-    <li class="metric" data-testid="number-count">Contagem números</li>
-    <li class="metric" data-testid="number-sum">Soma números</li>
-    <li class="metric" data-testid="word-length-average">Comprimento palavras</li>
-  </ul>
-  <textarea name="user-input" rows="8" cols="80">
-  </textarea>
-  <button id="reset-button">
-    Limpar métricas
-  </button>
-</section>
-</body>
-
-<footer>
+    <h1> Analizador de texto</h1>
+    <ul>
+      <li class="metric" data-testid="word-count">Palavras:</li>
+      <li class="metric" data-testid="character-count">Caracteres:</li>
+      <li class="metric" data-testid="character-no-spaces-count">Espaços excluidos:</li>
+      <li class="metric" data-testid="number-count">Contagem números:</li>
+      <li class="metric" data-testid="number-sum">Soma números:</li>
+      <li class="metric" data-testid="word-length-average">Comprimento palavras:</li>
+    </ul>
+    <textarea name="user-input" id="text" rows="8" cols="80"></textarea>
+    <button class="clear" id="reset-button">
+      Apagar
+    </button>
+  </section>
+  <footer>
     <p class="footer"> Autor: Selly Lima</p>
-</footer>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
 </html>

@@ -50,7 +50,7 @@ textarea {
   margin-left: 2rem;
 }
 
-#reset-button {
+.clear {
   background: #5c85ae;
   color: #fff;
   font-size: 14px;
