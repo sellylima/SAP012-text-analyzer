@@ -16,7 +16,7 @@ body {
   border-radius: 16px;
 }
 
-h1 {
+header {
   color: #23526e;
   padding: 2rem;
   text-align: center;
@@ -60,7 +60,7 @@ textarea {
   border-radius: 5px;
 }
 
-.footer {
+p {
   margin: 0 6rem;
   color: #23526e;
   text-align: right;

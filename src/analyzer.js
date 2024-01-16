@@ -12,7 +12,8 @@ const analyzer = {
 
   getCharacterCountExcludingSpaces: (text) => {
     // esta função deve retornar a contagem de caracteres excluindo espaços e sinais de pontuação encontrados no parâmetro `text` do tipo `string`.
-    const words = text.split(" ");
+    const wordsSemCaracteres = text.replace(/[^a-zA-Z0-9]/g, "");
+    const words = wordsSemCaracteres.split(" ");
     const stringSemEspaco = words.join("");
     return stringSemEspaco.length;
   },
@@ -26,16 +27,23 @@ const analyzer = {
   },
 
   getNumberCount: (text) => {
-    // Esta função deve retornar quantos números estão no parâmetro `text` do tipo `string`. 
-    //const somaNumeros = text.match(/\d+/g);
-    return somaNumeros ? somaNumeros.length : 0;
+    // Esta função deve retornar quantos números estão no parâmetro `text` do tipo `string`.
+    const somaNumeros = text.match(/\b\d+(\.\d+)?\b/g);
+    if (somaNumeros) {
+      return somaNumeros.length;
+    } else {
+      return 0;
+    }
   },
 
   getNumberSum: (text) => {
     //Esta função deve retornar a soma de todos os números encontrados no parâmetro `text` do tipo `string`.
-    const somaNumeros = text.match(/\d+/g);
+    const somaNumeros = text.match(/\b\d+(\.\d+)?\b/g);
     if (somaNumeros) {
-      const sum = somaNumeros.reduce((acc, num) => acc + parseInt(num, 10), 0);
+      let sum = 0;
+      for (let i = 0; i < somaNumeros.length; i++) {
+        sum += Number(somaNumeros[i]);
+      }
       return sum;
     } else {
       return 0;
