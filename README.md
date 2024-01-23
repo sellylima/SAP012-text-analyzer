@@ -18,6 +18,7 @@ Soma de números: Retorna a soma de todos os números encontrados no texto.
 Comprimento médio de palavras: Calcula o comprimento médio das palavras no texto.
 
 ## ✔️ Desenvolvimento
+
 Este projeto utiliza JavaScript e foi construído com base em módulos. O arquivo index.js é responsável por ouvir eventos no DOM e invocar os métodos do objeto analyzer para atualizar as métricas. O arquivo analyzer.js contém a lógica para calcular as métricas do texto.
 
 ## ✔️ Métodos do Analyzer
@@ -29,8 +30,9 @@ getAverageWordLength(text): Retorna o comprimento médio das palavras no texto.
 getNumberCount(text): Retorna a quantidade de números no texto.
 getNumberSum(text): Retorna a soma de todos os números no texto.
 
-##  ✔️ Autor
-  Selly Lima
+## ✔️ Autor
+
+Selly Lima
 
 ## 📁 Acesse o projeto
 
