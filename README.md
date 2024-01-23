@@ -38,4 +38,4 @@ Selly Lima
 
 Simples assim! Divirta-se analisando textos. :)
 
-Clique [aqui](https://sellylima.github.io/SAP012-text-analyzer/)
+Clique -- [aqui](https://sellylima.github.io/SAP012-text-analyzer/)
