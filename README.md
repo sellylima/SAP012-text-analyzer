@@ -32,10 +32,8 @@ getNumberSum(text): Retorna a soma de todos os números no texto.
 
 ## ✔️ Autor
 
-Selly Lima
+Selly
 
 ## 📁 Acesse o projeto
 
 Simples assim! Divirta-se analisando textos. :)
-
-Clique -- [aqui](https://sellylima.github.io/SAP012-text-analyzer/)

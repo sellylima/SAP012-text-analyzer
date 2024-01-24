@@ -48,9 +48,10 @@ textarea {
   justify-content: center;
   border-radius: 10px;
   margin-left: 2rem;
+  padding: 1rem;
 }
 
-.clear {
+button {
   background: #5c85ae;
   color: #fff;
   font-size: 14px;
@@ -60,8 +61,8 @@ textarea {
   border-radius: 5px;
 }
 
-p {
-  margin: 0 6rem;
+footer {
+  margin-bottom: 1rem;
   color: #23526e;
-  text-align: right;
+  text-align: center;
 }
